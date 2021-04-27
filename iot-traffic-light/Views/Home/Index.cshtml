@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Traff-IoT";
+}
+<link href="~/css/styles.css" rel="stylesheet" />
+
+<div class="titles">
+    <h1>¡Bienvenido a Traff-IoT!</h1>
+    <h3>No dudes en solicitar tu paso por el cruse de peatones</h3>
+</div>
+
+<button type="button" id="cross-btn" class="btn btn-primary p-2 px-4 mt-4rem">Solicitar cruse</button>
+
+<div class="traffic-light">
+    <div class="light red" color="red"></div>
+    <div class="light yellow" color="yellow"></div>
+    <div class="light green" color="green"></div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+<script src="~/js/service.js"></script>
+<script src="~/js/main.js"></script>
